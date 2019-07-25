@@ -11,7 +11,7 @@ lint:				## Run go linter
 	@golangci-lint run -v ./...
 
 test:				## Run all the go tests
-	@go test -v -timeout 200s ./... -coverprofile coverage.out
+	@go test -v -timeout 20s -bench=. ./... -coverprofile coverage.out
 
 verify-makefile:		## Run checkmake to verify Makefile integrity
 	@checkmake --debug $(MAKEFILE_LIST)
