@@ -30,15 +30,15 @@ func HelloWithCase(name string, lang string) string {
 		name = "World"
 	}
 
-	if lang == spanish {
-		return spanishHelloPrefix + name
-	}
+	prefix := englishHelloPrefix
 
-	if lang == french {
-		return frenchHelloPrefix + name
+	switch lang {
+	case french:
+		prefix = frenchHelloPrefix
+	case spanish:
+		prefix = spanishHelloPrefix
 	}
-
-	return englishHelloPrefix + name
+	return prefix + name
 }
 
 func main() {
