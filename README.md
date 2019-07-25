@@ -12,7 +12,8 @@ Getting started with Golang with a bit of TDD and good practices.
 - Write enough code to make the test pass
 - Refactor
 
-## Road so far
+## Road so far...
 
 1. Install Go - Setup the golang environment
 2. Hello World - Declare variables, constants, if/else statements, switch cases, go syntax and the very first program with test case.
+3. Integers - Further Explore function declaration syntax and learn new ways to improve the documentation of your code.
