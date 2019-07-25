@@ -1,6 +1,7 @@
 # learn-go-with-tests
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/sanster23/learn-go-with-tests)](https://goreportcard.com/report/github.com/sanster23/learn-go-with-tests)
+[![codecov](https://codecov.io/gh/sanster23/learn-go-with-tests/branch/master/graph/badge.svg)](https://codecov.io/gh/sanster23/learn-go-with-tests)
 
 Getting started with Golang with a bit of TDD and good practices.
 
