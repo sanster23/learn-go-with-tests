@@ -16,4 +16,7 @@ test:				## Run all the go tests
 verify-makefile:		## Run checkmake to verify Makefile integrity
 	@checkmake --debug $(MAKEFILE_LIST)
 
+push-coverage:
+	hack/coverage.sh
+
 .PHONY: all clean lint test usage
