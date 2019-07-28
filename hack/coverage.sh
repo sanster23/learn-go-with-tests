@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script will test the coverage of all the packages
+# This script will test the coverage of all packages and push to Codecov
 
 set -e
 
